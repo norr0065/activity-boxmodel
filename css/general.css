@@ -1,0 +1,109 @@
+@charset "utf-8";
+
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html {
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;    
+    font-size: 100%;
+}
+
+body {
+    background-color: #ECFFFF;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+    
+.masthead {
+    background-color: #22BDAF;
+    overflow: hidden; 
+}
+    
+.logo {
+    height: 4.5rem;
+    width: auto;
+    margin: .5rem 5%;    
+}
+
+article {
+    margin: 0;
+    padding: 0 5%;
+    overflow: hidden;
+}
+
+h1 {
+    font-family: Gill Sans, Bodoni MT, Serif;
+    font-weight: normal;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #000000;
+    text-shadow: #22BDAF 3px 3px;
+}
+
+h1 + p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+p {
+    line-height: 1.5rem;
+    margin: 1.5rem; 
+}
+
+h2 {
+    font-family:Gill Sans, Bondoni MT, Serif;
+    font-weight: normal;
+    font-size: 3rem;
+    color: #000000;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #22BDAF;
+}
+
+img {
+	width: 100%;
+    display: block;
+}
+    
+
+figure {
+    margin: 0 auto 1.5rem; 
+    width: 100%; 
+}
+
+figcaption { 
+    font-size: .75rem;
+    margin: .5rem 0 0;
+}
+
+footer {
+    background-color: #22BDAF;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: .75rem;
+    margin: .5rem 5% 5rem;
+    color: white;
+}
+
+footer a {
+    color: white;
+}
